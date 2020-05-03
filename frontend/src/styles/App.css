@@ -1,0 +1,259 @@
+.welcome {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+a.nav-link {
+  cursor: pointer;
+}
+
+.section-register {
+  display: grid;
+  max-width: 1000px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 2fr;
+  margin: 0 auto;
+  column-gap: 50px;
+  row-gap: 50px;
+}
+
+.section-register div {
+  width: 300;
+  height: 100px;
+  margin-top: 20px;
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.item-register strong {
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  color: #333;
+}
+
+div.modal-body {
+  margin: auto 0;
+}
+
+.form-register .input-group {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.form-register .input-group.avaliacao {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr;
+}
+
+/* quando estiver dentro de input-group/input-block */
+.form-register .input-group .input-block {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(223, 221, 221);
+}
+
+.form-register .input-block label {
+  color: #424141;
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+}
+
+.form-register .input-block input {
+  width: 100%;
+  height: 32px;
+  font-size: 14px;
+  border: 0;
+  border-bottom: 1px solid rgb(141, 140, 140);
+}
+
+.form-register button {
+  border: 0;
+  margin-top: 30px;
+  background: royalblue;
+  border-radius: 2px;
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+
+.form-register button:hover {
+  background: #1a39ec;
+}
+
+.browser-default {
+  margin-top: 10px;
+}
+
+.ButtonCloseRegister {
+  width: 100%;
+  border: 0;
+  margin-top: 30px;
+  background: #c54;
+  border-radius: 2px;
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+
+.ButtonCloseRegister:hover {
+  background: #800909;
+}
+
+.ButtonOpenRegister {
+  width: 100%;
+  border: 0;
+  margin-top: 30px;
+  background: rgb(6, 128, 103);
+  border-radius: 102px;
+  padding: 15px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+
+.ButtonOpenRegister:hover {
+  background: #04382b;
+}
+
+.comarca {
+  display: block;
+}
+
+.box-error {
+  float: right;
+}
+
+.box-error span {
+  color: #ff1e63;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* The container */
+.container {
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input~.checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked~.checkmark {
+  background-color: #2196f3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked~.checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+#data::placeholder {
+  color: rgb(146, 146, 151);
+}
+
+.show-peritos {
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.show-peritos td {
+  border: 1px solid #999;
+  padding: 5px;
+}
+
+.show-peritos table {
+  border-collapse: collapse;
+}
+
+.show-peritos #top {
+  font-weight: bold;
+  text-align: center;
+}
+
+td:hover {
+  background-color: rgb(238, 238, 238);
+}
+
+span#registro {
+  font-size: 12px;
+  font-style: italic;
+}
+
+#person:hover {}
+
+[data-content]:hover::before {
+  content: attr(data-content);
+  position: absolute;
+  display: block;
+  color: white;
+  font-size: 13px;
+  margin-top: 15px;
+  margin-left: 80px;
+  padding: 5px 10px;
+  border-radius: 0px 10px 10px 10px;
+  background-color: rgba(42, 42, 42, 0.8);
+
+}
