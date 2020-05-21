@@ -18,8 +18,7 @@
 
 <p align="center">
   <a href="#rocket-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#checkered_flag-installation">Installation</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licence">Licence</a>
+  <a href="#checkered_flag-installation">Installation</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 <hr>
