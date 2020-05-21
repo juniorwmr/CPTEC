@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="CPTEC" title="CPTEC" src="./github/cptec.png" width="150px" />
+  <img alt="CPTEC" title="CPTEC" src="./github/Free_Sample_By_Wix.jpeg" width="150px" />
 </h1>
 
 <h3 align="center">
@@ -9,7 +9,7 @@
 <p align="center">
 
   <a href="https://www.linkedin.com/in/juniorwmr/">
-    <img alt="Made by Washington" src="https://img.shields.io/badge/made%20by-juniorwmr-%23d95844">
+    <img alt="Made by Washington" src="https://img.shields.io/badge/made%20by-juniorwmr-%11d95844">
   </a>
 
   <!-- <img alt="License" src="https://img.shields.io/badge/licence-MIT-%23d95844"> -->
